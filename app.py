@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World from main"
+    print("User authentication workflow initialized.")
+    return "Hello World — Git conflict resolved on main"
 
 
 if __name__ == "__main__":
